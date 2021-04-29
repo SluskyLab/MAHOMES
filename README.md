@@ -41,3 +41,4 @@ This repository contains source code for three different functions.
     
     This can be tested using T-metal-sites for <job_name>. Because feature calculations require other software (Rosetta, Bluues, and FindGeo), we have provided the calculated features and expected predictions. Note that saving new models may result in small differences due to the stochastic nature of the random under-sampling the extra trees algorithm. However, the final_prediction should remain the same. The demo should take less than one minute.
 
+Copyright © 2018 University of Kansas
