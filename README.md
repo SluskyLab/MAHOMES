@@ -22,7 +22,7 @@ This repository contains source code for three different functions.
 
 2. MAHOMES training and performance evaluation:
     This can be done by going through each step of MAHOMES_eval_T-metal-site.ipynb. This notebook includes:
-    1. Reading in the data-set and holdout T-metal-sites (followed by making the change to labels found during manual inspection)
+    1. Reading in the data-set and holdout T-metal-sites 
     2. Scaling the features
     3. Under-sampling the training data and removing features that are not a part of the all-category, mean sphere feature set
     4. Train an extra trees classifier to create a model that makes predictions for T-metal-sites and saves that model
@@ -33,7 +33,7 @@ This repository contains source code for three different functions.
 
 3. Using MAHOMES to make predictions
     Prior to using MAHOMES to make predictions, features need to be calculated using third-party software. 
-    1. Save a file containing calculated features as data/<job_name>/sites_calculated_features.txt
+    1. Save a file containing calculated features as data/<job_name>/sites_calculated_features.txt (requires third-party tools, see methods in publication for details)
     2. From the MachineLearning directory, run "python MAHOMESNewPredictions.py <job_name>"
     3. The resulting data/<job_name>/sites_predictions.txt will contain the predictions for each site
         - final_prediction is MAHOMES enzyme or non-enzyme prediction
