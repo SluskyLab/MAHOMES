@@ -18,10 +18,10 @@ The source code in this repository does not require any instalation.
 This repository contains source code for three different functions.
 
 1. ML algorithms and feature sets optimization:
-    MachineLearning/CV/MLwGrid.py uses nested cross validation to test the performance of an ML algorithm, feature set, and optmiization metric. Additional details and demo instructions are located at the top of the file.
+    CV/MLwGrid.py uses nested cross validation to test the performance of an ML algorithm, feature set, and optmiization metric. Additional details and demo instructions are located at the top of the file.
 
 2. MAHOMES training and performance evaluation:
-    This can be done by going through each step of MachineLearning/MAHOMES_eval_T-metal-site.ipynb. This notebook includes:
+    This can be done by going through each step of MAHOMES_eval_T-metal-site.ipynb. This notebook includes:
     1. Reading in the data-set and holdout T-metal-sites (followed by making the change to labels found during manual inspection)
     2. Scaling the features
     3. Under-sampling the training data and removing features that are not a part of the all-category, mean sphere feature set
