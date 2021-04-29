@@ -12,13 +12,13 @@ The source code in this repository has been tested using MacOS 10.15.7. Python s
 - JupyterNotebook: https://jupyter.org
 
 ## Installation guide:
-The source code in this repository does not require any instalation.
+The source code in this repository does not require any installation.
 
 ## Instructions for use:
 This repository contains source code for three different functions.
 
 1. ML algorithms and feature sets optimization:
-    CV/MLwGrid.py uses nested cross validation to test the performance of an ML algorithm, feature set, and optmiization metric. Additional details and demo instructions are located at the top of the file.
+    CV/MLwGrid.py uses nested cross validation to test the performance of an ML algorithm, feature set, and optimization metric. Additional details and demo instructions are located at the top of the file.
 
 2. MAHOMES training and performance evaluation:
     This can be done by going through each step of MAHOMES_eval_T-metal-site.ipynb. This notebook includes:
@@ -32,8 +32,8 @@ This repository contains source code for three different functions.
     This notebook should take less than five minutes.
 
 3. Using MAHOMES to make predictions
-    Prior to using MAHOMES to make predictions, features need to be calculated using third-party software. 
-    1. Save a file containing calculated features as data/<job_name>/sites_calculated_features.txt (requires third-party tools, see methods in publication for details)
+    Prior to using MAHOMES to make predictions, features need to be calculated using third-party software. The publication and corresponding supplement detail these calculations. 
+    1. Save a file containing calculated features as data/<job_name>/sites_calculated_features.txt
     2. From the MachineLearning directory, run "python MAHOMESNewPredictions.py <job_name>"
     3. The resulting data/<job_name>/sites_predictions.txt will contain the predictions for each site
         - final_prediction is MAHOMES enzyme or non-enzyme prediction
