@@ -71,8 +71,8 @@ def make_predictions(feat_df):
      site_preds.loc[site_preds['prediction']>=0.5, 'final_prediction']="Enzyme"
      return(site_preds)
 
-site_features = pd.read_csv("../data/%s/sites_calculated_features.txt"%(job_name))
+site_features = pd.read_csv("data/%s/sites_calculated_features.txt"%(job_name))
 site_features = site_features.set_index('SITE_ID',drop=True)
 site_predictions = make_predictions(site_features)
-site_predictions.to_csv("../data/%s/sites_predictions.txt"%(job_name))
+site_predictions.to_csv("data/%s/sites_predictions.txt"%(job_name))
 
