@@ -85,7 +85,7 @@ name = names[name_index]
 
 
 ## read ion all sites/features
-sites = pd.read_csv("../../data/publication_sites/sites_calculated_features_scaled.txt", sep=',')
+sites = pd.read_csv("../publication_sites/sites_calculated_features_scaled.txt", sep=',')
 sites = sites.set_index('SITE_ID',drop=True)
 
 ## get training/kfold sites, random under sample, and split out target value ("Catalytic")
