@@ -1,8 +1,8 @@
 ,C,class_weight,penalty
-0,1.0,,l1
+0,1.0,balanced,l1
 1,1.0,balanced,l1
-2,1.0,,l2
-3,1.0,,l1
-4,1.0,,l1
+2,1.0,,l1
+3,0.01,,l2
+4,1.0,balanced,l1
 5,1.0,balanced,l1
 6,1.0,balanced,l1
